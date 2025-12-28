@@ -1,0 +1,22 @@
+sort1 uses: Bubble sort
+
+How do you know?: Sorted is way faster compared to the random.
+
+sort2 uses: Merge sort
+
+How do you know?: it takes around the same time for sorted and random, but in general sorted is slightly more faster.
+
+sort3 uses: Selection sort
+
+How do you know?: it takes about almost the same, slightly faster for sorted than random list.
+
+
+//memo
+sort1 random 10000: 0.222s
+sort1 sorted 10000:0.061s
+
+sort2 random 10000: 0.048s
+sort2 sorted 10000:0.041s
+
+sort3 random 10000: 0.151s
+sort3 sorted 10000: 0.119s
