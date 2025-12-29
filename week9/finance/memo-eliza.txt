@@ -1,0 +1,11 @@
+things to do:
+register, done
+quote, done
+buy, done
+index, doen
+sell, done (-shares)
+history, done
+1st check: it duplicates the users...
+couldnt sell handles
+
+
