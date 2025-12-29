@@ -1,0 +1,25 @@
+tags used:
+html
+head
+header
+body
+section
+div
+nav
+li
+ul
+p
+a
+br
+h1
+h2
+footer
+button
+embed
+
+
+JS implementations:
+button for to toggle to dark mdoe
+
+Bootstrap implementations:
+hero/ firstview section in index.html

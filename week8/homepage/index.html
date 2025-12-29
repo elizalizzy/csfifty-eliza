@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>elizalizzy</title>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <h1>eliza's homepage</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+            </nav>
+            <button onclick="runDarknessMode()">Toggle Dark Mode</button>
+        </header>
+        <!-- the main section: firstview -->
+        <h2> welcome to eliza's homepage</h2>
+        <main>
+            <section class= "firstview">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url(https://i.pinimg.com/736x/46/91/64/469164a33c7dc5a31c482c205fd98b81.jpg);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url(https://scontent-itm1-1.cdninstagram.com/v/t51.82787-15/538413189_18413288734104792_4321521655016345321_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzcwNTQ4ODA4MzE1NTA0MzI1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=osSvyVEkupsQ7kNvwGkTl68&_nc_oc=Adlc5Wn9EmYx2vUteLUiUiy_TUNDqEdotuwaUoBI21JHvWMNAr2LBnN-eXkyYV8irgYiUGu94dMpMuPUa132P8bk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=KVB2pVZPIZhgPlEEakEYCg&oh=00_Afn_NGYL4ZPj-Ch56b3XFyfeRfPks33tD_VrHCAeOSxw9w&oe=69572E23);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Eliza Morita</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url(https://i.pinimg.com/736x/df/9b/20/df9b2063649512a0a49645322941e723.jpg);">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- the second section:  -->
+            <section class="random">
+
+            </section>
+        </main>
+         <!-- footer-->
+        <footer>
+            <p>&copy; 2025 Eliza</p>
+        </footer>
+        <script>
+            function runDarknessMode() {
+                document.body.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+
+</html>
