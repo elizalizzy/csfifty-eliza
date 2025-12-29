@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Photo Booth</title>
+        <link rel="stylesheet" href="Style/booth.css">
+    </head>
+
+    <body class="booth">
+        <header>
+            <img src="/images/logo.png" alt="Logo" class="logo">
+            <p>elizalizzy</p>
+        </header>
+
+        <p class="booth-title">capture your photo</p>
+        <div class="photobooth-container" id="booth">
+            <div class="countdown-timer">3</div>
+            <canvas id="finalCanvas" width="1176" height="1470"></canvas>
+            <video id="liveVideo" autoplay playsinline muted></video>
+            <img class="frame-overlay" src="/images/frame.png" alt="frame overlay" />
+        </div>
+
+        <div class="controls">
+            <label class="frame-select">Frame:
+                <select id="frameSelect">
+                    <option value="/images/frame.png">nature at night</option>
+                    <option value="/images/frame2.png">stars</option>
+                    <option value="/images/frame3.png">city night</option>
+                    <option value="">None</option>
+                </select>
+            </label>
+            <button id="takePhoto">Capture</button>
+            <button id="readyButton" disabled style="display: none;">Ready</button>
+        </div>
+
+        <script src="JavaScript/booth.js"></script>
+    </body>
+
+</html>

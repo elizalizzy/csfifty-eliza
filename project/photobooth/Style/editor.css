@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Jacquarda Bastarda 9', serif;
+    background-color: #FDE3F3;
+    color: #3F3B6B;
+    text-align: center;
+}
+#finalCanvas {
+    width: 320px; /* display smaller in editor */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    display: block;
+    margin: 0 auto 16px;
+    background: #fff;
+}
+.download-btn, .home-link  {
+    font-family: 'Jacquarda Bastarda 9', serif;
+    display: inline-block;
+    padding: 12px 30px;
+    background: #A498F8;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #3F3B6B;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border: none;
+    margin-bottom: 20px;
+}
+.download-btn:hover, .home-link:hover {
+    background: #F1D3FF;
+}
+

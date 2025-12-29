@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Jacquarda Bastarda 9', serif;
+    background-color: #FDE3F3;
+    color: #3F3B6B;
+    text-align: center;
+}
+/* index */
+header {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+body.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-wrapper {
+    text-align: center;
+}
+.home-wrapper .hero-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.select-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #A498F8;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #3F3B6B;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.select-btn:hover {
+    background: #F1D3FF;
+}
+

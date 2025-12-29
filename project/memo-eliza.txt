@@ -1,0 +1,25 @@
+dreamcore-photobooth/
+│
+├── index.html        (Home) bg, sleect button, ologo, favicon, name
+├── booth.html        (Camera / Capture), selecting the frame, take the photo,
+├.editor (final)        (downloading the image)
+│
+├── style.css
+├── booth.js
+├── editor.js
+│
+└── stickers/
+    ├── cloud.png
+    ├── star.png
+    ├── moon.png
+
+|
+|---images/
+
+todo: check!
+favicon
+dropdown menu
+center the photobooth
+make the photos downlod
+↑done
+
